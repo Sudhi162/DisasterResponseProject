@@ -106,7 +106,14 @@ def build_model():
         ('clf',MultiOutputClassifier(RandomForestClassifier()))
     ])
     
-    return model
+    parameters = {
+              'clf__estimator__n_estimators':[10,20],
+              'clf__estimator__n_jobs': [1]
+             }
+              
+
+    tunedModel = GridSearchCV(model, param_grid=parameters, cv=2, verbose=3)
+    return tunedModel
 
 
 def evaluate_model(model, X_test, Y_test, category_names):
