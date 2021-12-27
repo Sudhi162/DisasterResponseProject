@@ -82,6 +82,11 @@ Type http://0.0.0.0:3001/ or http://localhost:3001/ to launch the webpage on the
   
   Adding more data in these categories will help balance the dateset being used to train this machine learning model.
   
+#### Grid Search
+  Grid search was used to find the best runing paremeters for the Random forest classifier ML Model. The paremeters on which gird search was performed are - 
+  - clf__estimator__n_estimators
+  - clf__estimator__n_jobs
+  
   ## Licensing, Authors, Acknowledgements
   Data set prelabelled provided by [Figure Eight](https://www.figure-eight.com/) for providing the datasets and directions
  [Udacity](https://www.udacity.com/) for project guidelines and setup.
