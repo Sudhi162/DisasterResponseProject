@@ -15,13 +15,15 @@ The background work before creating the Machine leanring model is performed by t
 |          |-- go.html      # page for text input into classification
 |    
 |-- data
-|    |-- DisasterResponse.db     # database to save clean data to
-|    |- disaster_categories.csv  # data to process 
-|    |- disaster_messages.csv    # data to process
-|    |- process_data.py          # ETL pipeline script
+|    |-- DisasterResponse.db           # database to save clean data to
+|    |- disaster_categories.csv        # data to process 
+|    |- disaster_messages.csv          # data to process
+|    |- process_data.py                # ETL pipeline script
+|    |- ETL Pipeline Preparation.ipynb # Jupiter notebook for ETL preparation
 |-- models
-|    |-- classifier.pkl          # saved model. Not available in repo
-|    |-- train_classifier.py     # ML pipeline script
+|    |-- classifier.pkl                # saved model. Not available in repo
+|    |-- train_classifier.py           # ML pipeline script
+|    |-- ML Pipeline Preparation.ipynb # ML pipeline jupiter notebook
 
 -- README.md
 -- .gitignore
