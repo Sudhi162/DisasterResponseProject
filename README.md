@@ -31,24 +31,24 @@ The background work before creating the Machine leanring model is performed by t
  
 ### instructions to run the web app
 1. Download the files or clone this repository
-   git clone https://github.com/Sudhi162/DisasterResponseProject
+   - git clone https://github.com/Sudhi162/DisasterResponseProject
 
 2. Execute the scripts
    navigate to the projects root directory.
    
    Run the following commands:
-- To run ETL pipeline that cleans data and stores in database
-  python data/process_data.py 'data/disaster_messages.csv' 'data/disaster_categories.csv' 'data/DisasterResponse.db'
+To run ETL pipeline that cleans data and stores in database
+- python data/process_data.py 'data/disaster_messages.csv' 'data/disaster_categories.csv' 'data/DisasterResponse.db'
   
-- To run ML pipeline that trains classifier and saves
-  python models/train_classifier.py 'data/DisasterResponse.db' 'models/classifier.pkl'  
+To run ML pipeline that trains classifier and saves
+- python models/train_classifier.py 'data/DisasterResponse.db' 'models/classifier.pkl'  
 
-  Navigate to the app directory and run the command
-  python run.py
+Navigate to the app directory and run the command
+- python run.py
   
-  The web app instantiates. Type http://0.0.0.0:3001/ or http://localhost:3001/ to launch the webpage on the web browser.
-  
-  Input any message in the input box and click on the Classify Message button to see the categories that the message may best be classified into.
+The web app instantiates. 
+Type http://0.0.0.0:3001/ or http://localhost:3001/ to launch the webpage on the web browser.
+- Input any message in the input box and click on the Classify Message button to see the categories that the message may best be classified into.
   
   
 ## Observations and discussions
