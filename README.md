@@ -72,13 +72,15 @@ The background work before creating the Machine leanring model is performed by t
 ### Data and ML accuracy
   The data provided though was not very large but consisted of about 26k records but helped training the random forest classifier. There were 170 duplicates that needed to be removed. The pre-labelled data was skewed . which means there were not many records to train the ML model in categories such as tools/hospitals/aid_centres/security/offer/fire.
   Hence, the Model accuracy was low in these categories as listed below.
-  - category      precision  recall  f1-score   support
-  - fire           0.78      1.00      0.88       168
-  - aid_centers    0.65      1.00      0.79       150
-  - shops          0.60      1.00      0.75        55
-  - hospitals      0.76      1.00      0.86       160
-  - security       0.69      1.00      0.82       242
+  |category|precision|recall|f1-score|support|
+  |--------|---------|------|--------|-------|
+  |fire|0.78|1.00|0.88|168|
+  |aid_centers|0.65|1.00|0.79|150|
+  |shops|0.60|1.00|0.75|55|
+  |hospitals|0.76|1.00|0.86|160|
+  |security|0.69|1.00|0.82|242|
   
+  Adding more data in these categories will help balance the dateset being used to train this machine learning model.
   
   ## Licensing, Authors, Acknowledgements
   Data set prelabelled provided by [Figure Eight](https://www.figure-eight.com/) for providing the datasets and directions
