@@ -68,7 +68,14 @@ Type http://0.0.0.0:3001/ or http://localhost:3001/ to launch the webpage on the
   The web app has built in visualizations to show how the messages were mostly classified into different categories and how was their distribution amongst various genres. 
   it has an input field into which a new message text can be input and the classified button to be clicked to use the Machine learning model to classify the input message into   
   relevant categories. 
-  
+  #### Web App input screen
+  ![webapp](https://user-images.githubusercontent.com/52425499/147510134-6eb73556-1c12-4ac5-bf8b-7249d63c5aac.png)
+  #### Web App Visuals
+  #### Message Distribution Visuals
+  ![plot1](https://user-images.githubusercontent.com/52425499/147510230-106f9378-a48d-4eb8-8a10-d315bee29971.png)
+  ![plot3](https://user-images.githubusercontent.com/52425499/147510246-28207cc9-0daa-42a5-9443-a13e728f88a4.png)
+  ![plot2](https://user-images.githubusercontent.com/52425499/147510256-31e3d929-3298-4ca1-8491-20b839cdcfe4.png)
+
 ### Data and ML accuracy
   The data provided though was not very large but consisted of about 26k records but helped training the random forest classifier. There were 170 duplicates that needed to be removed. The pre-labelled data was skewed . which means there were not many records to train the ML model in categories such as tools/hospitals/aid_centres/security/offer/fire.
   Hence, the Model accuracy was low in these categories as listed below.
